@@ -16,17 +16,36 @@
   -webkit-text-size-adjust: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  font-family: 'Gotham Pro', serif;
+  color: black;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+
+  overflow-x: hidden;
 }
 
 main {
   flex-grow: 1;
 }
-main:has(.back-link) {
-  text-align: center;
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
