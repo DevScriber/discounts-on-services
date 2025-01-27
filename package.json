@@ -1,11 +1,11 @@
 {
-  "name": "project-test",
+  "name": "discounts-on-services",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-test/",
+    "build": "vite build --base=/discounts-on-services/",
     "preview": "vite preview"
   },
   "devDependencies": {

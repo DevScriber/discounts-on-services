@@ -1,18 +1,21 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 /* Common styles */
-@import url('./reset.css');
-@import url('./font.css');
-@import url('./base.css');
-@import url('./variables.css');
-@import url('./container.css');
+@import url('./common/reset.css');
+@import url('./common/font.css');
+@import url('./common/base.css');
+@import url('./common/variables.css');
+@import url('./common/container.css');
 
 /* Sections style */
-@import url('./header.css');
-@import url('./footer.css');
+@import url('./components/header.css');
+@import url('./components/footer.css');
+@import url('./components/first-page-part.css');
+@import url('./components/second-page-part.css');
+@import url('./components/faq-table.css');
 
 /* Pages style */
+@import url('./pages/index.css');
+@import url('./pages/netflix.css');
+@import url('./pages/you-tube.css');
+@import url('./pages/spotify.css');
+@import url('./pages/faq.css');
+@import url('./pages/profile.css');
