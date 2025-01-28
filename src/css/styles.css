@@ -5,12 +5,14 @@
 @import url('./common/variables.css');
 @import url('./common/container.css');
 
-/* Sections style */
+/* Components style */
 @import url('./components/header.css');
 @import url('./components/footer.css');
 @import url('./components/first-page-part.css');
 @import url('./components/second-page-part.css');
 @import url('./components/faq-table.css');
+@import url('./components/invite.css');
+
 
 /* Pages style */
 @import url('./pages/index.css');
