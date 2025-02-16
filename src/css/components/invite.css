@@ -1,0 +1,140 @@
+/* #region invite article */
+
+.invite-article {
+  padding-top: 8px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .invite-article {
+    padding-bottom: 60px;
+  }
+}
+
+.invite-container {
+  box-shadow: 0 4px 24px 0 rgba(213, 216, 221, 0.2);
+  background: var(--blue);
+  border-radius: 32px;
+  padding: 20px;
+  padding-top: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  .invite-container {
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .invite-container {
+    padding: 44px 80px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .invite-left-side-container {
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .invite-left-side-container {
+    width: 275px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .invite-left-side-container {
+    width: 508px;
+  }
+}
+.invite-title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.4;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+@media only screen and (min-width: 1200px) {
+  .invite-title {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+}
+.invite-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white);
+}
+.invite-link-container {
+  border-radius: 16px;
+  background-color: #f1f4f8;
+  padding: 28px;
+}
+@media only screen and (min-width: 768px) {
+  .invite-link-container {
+    width: 336px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .invite-link-container {
+    width: 445px;
+  }
+}
+.invite-link-text {
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--brand-dark);
+  margin-bottom: 12px;
+}
+@media only screen and (min-width: 1200px) {
+  .invite-link-text {
+    margin-bottom: 8px;
+  }
+}
+.invite-link-copy-container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .invite-link-copy-container {
+    gap: 8px;
+  }
+}
+.invite-link {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-align: center;
+  color: var(--blue);
+}
+
+@media only screen and (min-width: 768px) {
+  .invite-link {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .invite-link {
+    font-size: 20px;
+  }
+}
+
+.invite-copy-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* #endregion */
