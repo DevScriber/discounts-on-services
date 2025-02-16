@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const buttons = document.querySelectorAll('.faq-item-btn');
 
   buttons.forEach(button => {
-    button.addEventListener('click', ShowHideAnswer);
+    button.addEventListener('click', () => ShowHideAnswer(button));
   });
 
-  function ShowHideAnswer() {
+  function ShowHideAnswer(button) {
     const parentLi = button.closest('.faq-item');
     const content = parentLi.querySelector('.faq-item-answer-text');
     content.style.maxHeight = 0 + 'px';
