@@ -166,7 +166,8 @@
   .about-us-content-container {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 16px;
   }
 }
 .about-us-left-side-content-container {
