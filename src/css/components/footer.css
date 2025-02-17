@@ -96,8 +96,15 @@
   margin-bottom: 12px;
 }
 .footer-list-link {
+  display: block;
   font-size: 16px;
   line-height: 1.5;
+  transition: transform 300ms ease-in;
+}
+.footer-list-link:hover,
+.footer-list-link:focus,
+.footer-list-link:active {
+  transform: scale(105%);
 }
 @media only screen and (max-width: 767px) {
   .footer-socials-container {
@@ -115,9 +122,9 @@
     margin-bottom: 16px;
   }
 }
-
 .footer-social-icon {
   fill: var(--white);
+  transition: fill 300ms ease-in;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -126,11 +133,20 @@
     height: 40px;
   }
 }
+.footer-social-link:hover .footer-social-icon,
+.footer-social-link:focus .footer-social-icon,
+.footer-social-link:active .footer-social-icon {
+  fill: var(--brand-dark);
+}
 .footer-language-choice-btn {
   display: flex;
   gap: 4px;
   align-items: center;
   justify-content: end;
+  transition: transform 300ms ease-in;
+}
+.footer-language-choice-btn:hover {
+  transform: scale(110%);
 }
 .footer-language {
   font-weight: 500;

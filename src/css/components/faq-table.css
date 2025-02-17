@@ -104,8 +104,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid transparent;
 
-  transition: transform 300ms ease-in;
+  transition: 300ms ease-in;
+  transition-property: transform border-color;
+}
+
+.faq-item-btn:focus {
+  border-color: #011a4e;
 }
 
 .faq-item-btn:hover .faq-item-btn-icon,

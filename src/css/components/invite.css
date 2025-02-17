@@ -74,6 +74,8 @@
   border-radius: 16px;
   background-color: #f1f4f8;
   padding: 28px;
+  outline: 2px solid transparent;
+  transition: outline-color 300ms ease-in;
 }
 @media only screen and (min-width: 768px) {
   .invite-link-container {
@@ -84,6 +86,9 @@
   .invite-link-container {
     width: 445px;
   }
+}
+.invite-link-container:has(.invite-copy-button:active) {
+  outline-color: #011a4e;
 }
 .invite-link-text {
   font-size: 20px;
