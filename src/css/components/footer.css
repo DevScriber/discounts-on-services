@@ -126,7 +126,7 @@
     height: 40px;
   }
 }
-.footer-language-choice-container {
+.footer-language-choice-btn {
   display: flex;
   gap: 4px;
   align-items: center;
