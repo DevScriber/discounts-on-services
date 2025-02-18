@@ -1,0 +1,52 @@
+/* #region header */
+.header {
+  width: 375px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.nav-wrapper {
+  display: flex;
+}
+
+.nav {
+}
+.nav-logo {
+}
+.nav-logo-icon {
+}
+.dropdown-nav {
+  display: none;
+}
+.dropdownd-nav-btn {
+}
+.dropdown-nav-list {
+  display: none;
+}
+.dropdown-nav-item {
+}
+.dropdown-nav-link {
+}
+.nav-list {
+  display: none;
+}
+.nav-item {
+}
+.nav-link {
+}
+.socials-list {
+  display: none;
+}
+.socials-item {
+}
+.socials-link {
+}
+.dropdown-lang {
+  display: none;
+}
+.dropdown-lang-btn {
+}
+.language-list {
+}
+.login-btn {
+}
+/* #endregion */
