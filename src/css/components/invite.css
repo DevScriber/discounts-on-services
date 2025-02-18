@@ -74,6 +74,8 @@
   border-radius: 16px;
   background-color: #f1f4f8;
   padding: 28px;
+  outline: 2px solid transparent;
+  transition: outline-color 300ms ease-in;
 }
 @media only screen and (min-width: 768px) {
   .invite-link-container {
@@ -84,6 +86,9 @@
   .invite-link-container {
     width: 445px;
   }
+}
+.invite-link-container:has(.invite-copy-button:active) {
+  outline-color: #011a4e;
 }
 .invite-link-text {
   font-size: 20px;
@@ -115,9 +120,9 @@
   line-height: 1.5;
   text-transform: uppercase;
   text-decoration: underline;
-  text-decoration-skip-ink: none;
   text-align: center;
   color: var(--blue);
+  transition: color 300ms ease-in;
 }
 
 @media only screen and (min-width: 768px) {
@@ -132,9 +137,49 @@
   }
 }
 
+.invite-link:active,
+.invite-link:hover,
+.invite-link:focus {
+  color: #011a4e;
+}
+
 .invite-copy-button {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.invite-copy-icon {
+  fill: var(--brand-dark);
+  transition: 300ms ease-in;
+  transition-property: fill, transform;
+}
+
+.invite-copy-button:hover .invite-copy-icon,
+.invite-copy-button:focus .invite-copy-icon {
+  fill: var(--blue);
+}
+
+.invite-copy-button:active .invite-copy-icon {
+  animation: rotate-btn 300ms ease-in;
+}
+
+@keyframes rotate-btn {
+  0% {
+    transform: rotate(15deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
 /* #endregion */

@@ -301,6 +301,7 @@
 @media only screen and (min-width: 1200px) {
   .request-container {
     padding: 40px 60px;
+    gap: 80px;
   }
 }
 
@@ -370,6 +371,9 @@
   line-height: 1.3;
   text-align: center;
   color: var(--brand-dark);
+  border: 3px solid transparent;
+  transition: 300ms ease-in;
+  transition-property: border color;
 }
 @media only screen and (min-width: 768px) {
   .request-btn {
@@ -382,5 +386,12 @@
     min-width: 296px;
     height: 54px;
   }
+}
+
+.request-btn:hover,
+.request-btn:focus,
+.request-btn:active {
+  border-color: #011a4e;
+  color: #011a4e;
 }
 /* #endregion */

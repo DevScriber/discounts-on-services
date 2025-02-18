@@ -1,4 +1,4 @@
-/* #region faq question script */
+// #region faq question script
 
 const buttons = document.querySelectorAll('.faq-item-btn');
 
@@ -20,4 +20,15 @@ function ShowHideAnswer(button) {
   }
 }
 
-/* #endregion */
+// #endregion
+
+// #region invite-link copy script
+const copyBtn = document.querySelector('.invite-copy-button');
+const inviteLink = document.querySelector('.invite-link');
+
+copyBtn.addEventListener('click', copyLink);
+
+function copyLink() {
+  navigator.clipboard.writeText(inviteLink.href);
+}
+// #endregion
