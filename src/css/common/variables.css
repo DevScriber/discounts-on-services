@@ -1,14 +1,11 @@
 :root {
-        --font-family: 'Gotham Pro',
-            serif;
-        --second-family: "Inter",
-            sans-serif;;
-        --third-family: "Montserrat",
-            sans-serif;;
-        --blue: #1749b3;
-        --red: #fe0000;
-        --text: #333;
-        --brand-dark: #171717;
-        --white: #fff;
-        --background: #ecf3fb;
-    }
+  --font-family: 'Gotham Pro', serif;
+  --second-family: 'Inter', sans-serif;
+  --third-family: 'Montserrat', sans-serif;
+  --blue: #1749b3;
+  --red: #fe0000;
+  --text: #5c5c5c;
+  --brand-dark: #171717;
+  --white: #fff;
+  --background: #ecf3fb;
+}
