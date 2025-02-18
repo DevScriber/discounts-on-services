@@ -1,37 +1,87 @@
 <header class="header">
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href=""></use>
-        </svg>
-        Home Page
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./netflix.html"
-            >Netflix</a
-          >
+    <div class="nav-wrapper">
+      <nav class="nav">
+        <a class="nav-logo" href="./index.html" aria-label="Site logo">
+          <svg class="nav-logo-icon" width="100" height="30">
+            <use href=""></use>
+          </svg>
+          Home Page
+        </a>
+        <div class="dropdown-nav">
+          <button class="dropdownd-nav-btn" type="button">Subscription</button>
+          <ul class="dropdown-nav-list">
+            <li class="dropdown-nav-item">
+              <a class="dropdown-nav-link" href="">Netflix</a>
+            </li>
+            <li class="dropdown-nav-item">
+              <a class="dropdown-nav-link" href="">YouTube Premium</a>
+            </li>
+            <li class="dropdown-nav-item">
+              <a class="dropdown-nav-link" href="">Spotify</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Support</a></li>
+          <li class="nav-item"><a class="nav-link" href="">About</a></li>
+        </ul>
+      </nav>
+      <ul class="socials-list">
+        <li class="socials-item">
+          <a class="socials-link" href="">
+            <svg class="" width="" height="">
+              <use href=""></use>
+            </svg>
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./you-tube.html"
-            >YouTube</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./spotify.html"
-            >Spotify</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./faq.html">FAQ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./profile.html"
-            >Profile</a
-          >
+        <li class="socials-item">
+          <a class="socials-link" href="">
+            <svg class="" width="" height="">
+              <use href=""></use>
+            </svg>
+          </a>
         </li>
       </ul>
-    </nav>
+      <div class="dropdown-lang">
+        <button class="dropdown-lang-btn" type="button">EN</button>
+        <ul class="language-list">
+          <li><a href="">English</a></li>
+          <li><a href="">Ukraine</a></li>
+          <li><a href="">Russian</a></li>
+        </ul>
+      </div>
+      <button class="login-btn" id="openLoginFormBtn" type="button">
+        Log in
+      </button>
+    </div>
   </div>
 </header>
+
+<!-- <ul class="nav-list">
+  <li class="nav-item">
+    <a class="nav-link {=$highlight-curr}" href="./netflix.html">
+      Netflix
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link {=$highlight-act}" href="./you-tube.html">
+      YouTube
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link {=$highlight-curr}" href="./spotify.html">
+      Spotify
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link {=$highlight-curr}" href="./faq.html">FAQ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link {=$highlight-curr}" href="./profile.html">
+      Profile
+    </a>
+  </li>
+</ul>
+</nav> -->
