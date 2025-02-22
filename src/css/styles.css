@@ -3,6 +3,7 @@
 @import url('./common/font.css');
 @import url('./common/base.css');
 @import url('./common/variables.css');
+@import url('./common/typography.css');
 @import url('./common/container.css');
 
 /* Components style */
@@ -12,7 +13,6 @@
 @import url('./components/second-page-part.css');
 @import url('./components/faq-table.css');
 @import url('./components/invite.css');
-
 
 /* Pages style */
 @import url('./pages/index.css');

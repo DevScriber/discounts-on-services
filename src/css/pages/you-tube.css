@@ -1,0 +1,178 @@
+.you_tube {
+  padding: 102px 0 16px;
+}
+.you_tube-title {
+  color: var(--brand-dark);
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 28px;
+}
+.you_tube-subtitle {
+  text-align: center;
+  margin-bottom: 28px;
+  font-size: 17px;
+}
+.you_tube-subtitle-accent {
+  color: var(--blue);
+}
+.you_tube-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.you_tube-list-item {
+  text-align: center;
+}
+.you_tube-card {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px 0 rgba(213, 216, 221, 0.2);
+  background: var(--white);
+}
+.you_tube-card-title::after {
+  content: "";
+  display: block;
+  width: calc(100% + 32px);
+  height: 1px;
+  background-color: #dbdbdb;
+  margin: 20px 0 20px -16px;
+}
+.you_tube-card-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+.you_tube-card-benefits-item {
+  display: flex;
+  gap: 8px;
+  text-align: left;
+}
+.you_tube-card-benefits-item-marker {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  border-radius: 50%;
+  background: #5c5c5c;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.you_tube-card-benefits-item-marker-checkmark {
+  fill: var(--white);
+}
+.you_tube-card-price {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.you_tube-card-price-currency {
+  padding-top: 7px;
+  font-family: var(--third-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #0f0f0f;
+}
+.you_tube-card-price-cost {
+  font-family: var(--third-family);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #0f0f0f;
+}
+.you_tube-card-button {
+  display: block;
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin: 0 auto;
+  background-color: var(--blue);
+  border-radius: 12px;
+  color: var(--white);
+  font-family: var(--third-family);
+}
+
+@media (min-width: 768px) {
+  .you_tube {
+    padding-top: 106px;
+  }
+  .you_tube-subtitle {
+    margin-bottom: 32px;
+  }
+  .you_tube-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 224px);
+    justify-content: center;
+    gap: 16px;
+  }
+  .you_tube-card {
+    min-height: 412px;
+  }
+  .you_tube-card-button {
+    padding-left: 52px;
+    padding-right: 52px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+  }
+  .you_tube-card-benefits {
+    flex-grow: 1;
+    margin-bottom: 0;
+    gap: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .you_tube {
+    padding-top: 80px;
+  }
+  .you_tube-title {
+    margin-bottom: 20px;
+  }
+  .you_tube-subtitle {
+    margin-bottom: 48px;
+  }
+  .you_tube-list {
+    grid-template-columns: repeat(auto-fit, 390px);
+  }
+  .you_tube-card {
+    min-height: 532px;
+    padding: 60px 40px 40px;
+  }
+  .you_tube-card-title::after {
+    width: calc(100% + 80px);
+    margin: 32px 0 32px -40px;
+  }
+  .you_tube-card-benefits-item {
+    gap: 14px;
+  }
+  .you_tube-card-benefits-item-marker {
+    margin: 3px;
+    width: 27px;
+    height: 27px;
+  }
+  .you_tube-card-benefits-item-marker-checkmark {
+    width: 27px;
+    height: 27px;
+  }
+  .you_tube-card-price {
+    gap: 3px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .you_tube-card-price-currency {
+    padding: 0;
+    font-size: 26px;
+  }
+  .you_tube-card-price-cost {
+    font-size: 50px;
+  }
+  .you_tube-card-button {
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}/*# sourceMappingURL=you-tube.css.map */
